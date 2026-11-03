@@ -1,13 +1,14 @@
-# NCAA 06 Football Next 26
+# NCAA 06 Football Next 27
 
-![ncaanext-twitter-banner-NEXT26](https://github.com/user-attachments/assets/a59d56c8-78f8-46bc-9264-51a1b9ad6d3a)
+![ncaanext-twitter-banner-NEXT27](https://github.com/user-attachments/assets/8d921d08-9aff-4a45-bdc8-5dc6f6547c7a)
+
 
 
 <img width="380" height="114" alt="NCAA NEXT" src="https://github.com/user-attachments/assets/59fec24a-ed6b-493c-a911-33619e63a9cb" />
 
 https://www.ncaanext.com
 
-Our fourth annual installment, the NEXT 26 mod is free, community-made add-on content that brings 2025 updates to EA's NCAA Football 06 (playable on PCSX2 & AetherSX2/NetherSX2/XBSX2)
+Our fifth annual installment, the NEXT 27 mod is free, community-made add-on content that brings 2026 updates to EA's NCAA Football 06 (playable on PCSX2 & AetherSX2/NetherSX2/XBSX2)
 
 **THIS MOD DOES NOT INCLUDE THE FULL GAME OR THE PS2 BIOS**
 
@@ -15,7 +16,7 @@ _Never pay for the NEXT mod. It is 100% free and our mod team does not accept do
 
 ### Latest Releases
 
-https://next26.ncaanext.com
+https://github.com/ncaanext/ncaa-next-27/releases/latest
 
 If you run into problems first check our website for help. You can also find help on discord or file an issue on github.
 
@@ -47,98 +48,69 @@ Features include:
 
 `Next 26 Changelog:`
 
-**General League Updates**
-* 136 Team Full FBS League with 2026 Conference Realignment including creation of new teams
-* 2025 Start Year
-* 2025 Player Rosters & Coaches, Heisman and Pre-Season All-Americans
-* 10 Additional Bowl Games Added to Post-Season, along with the College Football Playoff Rule Changes
-* Added a new team-developed College Football Playoff ranking system that should bias towards wins, losses, and strength of schedule and reduces conference prestige bias that results in teams with many losses in the Top 10
-* Pre-Season Injuries
-* Added Medical Redshirting (automatic) into the mod!
-* Improved Sim Engine and Sim Stats
-* Increased Stadium Count
-* Updated Stadiums for Coastal Carolina, and other teams
-* Updated Coaches with career stats (new feature!) and hot seat performance values based on real-life
-* Updated every coach with realistic coaching playbook, schemes, and pass ratios
-* Updated scheduling system to prioritize conference scheduling matchups of dissimilar conf prestige (i.e. Power 4 vs Group 6 games)
-* Fully removed 1A/1AA designations and converted to FBS/FCS naming
-* Added option for Notre Dame as an Independent team with an ACC hybrid schedule
-* Updated Team Overall / Team Rating System
-* CPU always picks the best player for each depth chart position in off-season
-* Aflac Kick-Off Game Special in Week 1!
-* 
+**General League & Roster Updates**
+- Expanded the FBS league from 136 to 138 teams; *added Sacramento State and North Dakota State to the FBS lineup*.
+- Rosters updated using CFB 27's roster DB as of October 29, 2026.
+- Expanded FBS roster capacity from 70 to 85 players per team.
+- Player PGID's now use 85 as the multiplier.
+- Restored depth charts back to their original capacity.
+- Last names can go back to 13 characters again; *I would keep them at 12 or less though for UI purposes*.
+- Expanded the Impact Player system to support up to eight Impact Player designations per FBS team; *an extra offense-only player, defense-only player, Kicker/punter player, and OLine player*.
+- Roster screens can be filtered by class as well as position; *use the Right Joystick to switch between classes*.
+- Dynasty rosters can be saved at any point as an official roster.
+
+**5-in-5 UPDATE**
+- All players have had redshirts removed.
+- If they have already used one, they have their PYER increased by 1.
+- Players can no longer get redshirts throughout their career; not from medical, naturally not playing, nor from not playing enough games.
+- Users CAN assign redshirts, but you will literally just be wasting a year of his college.
+- True seniors are now added to the pool of players that may "go pro".
+- After a player's senior year, if they don't go pro, they will come back as a senior who has redshirted (PRSD=2), but it will just be listed at "SR+".
+- All SR+ players will be forced off teams at the end of the year.
 
 **Recruiting Updates**
-* Added full transfer portal system
-* Updated Recruiting Database
-* Revised Fullback Recruiting archetypes
-* New Names Database with 22,000 First and 22,000 Last Names File Added. * There are over 24.1 Million Unique name combinations now possible!
-* Added an additional layer of recruit randomization during off-season
-* Re-Rate In-Season Recruits in off-season
-* Removed 1-Star Recruits (moved to 2-Star)
-* Fullbacks, Kickers and Punters max out at 3-Stars
-* Updated Walk-On Database with improved appearance and gear selection
-* Removed Transfers re-joining original team from scoring system in Transfer Portal feature
-* Removes the ability for Athletes to become fullbacks
-* Added a feature to choose the best position for the "Athlete" role during recruiting/position change phase
-* Improved NFL Draft declarations
-* International Recruits
-* More varied In-Season Recruits
-* Realistic State by State recruit distribution based on real data
-* Polynesian Surnames and distribution by state
-* Recruit Randomizer including attributes, face, hair, etc.
-* New dialogs/captions
+- Expanded the in-season recruiting pool from 479 to 2,048 recruits.
+- Expanded team recruiting boards from 10 to 35 targets per school.
+- Increased in-season recruiting points to 300; *max pre recruit allotment is still 100*.
+- Slightly modified in-season recruitment strategy for CPU teams.
+- In-season recruits get more randomization; *similar to, but the same as or as drastic as the off-season randomization*.
 
-**Gameplay Updates**
-* Modern NCAA Rules
-* New formation sets: Pistol Offense, Shotgun Wide Spread, Wide Slot and Duo
-* Modern Playbook Updates
-* Updated all playbook AI settings
-* 4 Impact Players by Default
-* Updated Player Fatigue System
-* Updated In-Game Scorebug with record displayed in dynasty mode
-* Updated every player's physical model shapes utilizing an updated and improved body shape algorithm
-* Instant Defensive Playcalling (similar to Corso offense picks)
-* Player Lock feature on both offense and defense - You can play as any position!
-* More Hot Route Options
+**Simulation & Gameplay Updates**
+- Rebalanced simulated rushing distribution for Option, Spread, Balanced, Flexbone, and West Coast offensive systems.
+- Expanded and rebalanced simulated passing and receiving distributions for those five offensive systems.
+- Expanded simulated receiving-role support, backup participation, statistical distribution, and depth-chart involvement to include WR6, HB4, TE3, and FB2.
+- Added coaching-based substitutions to the simulated-game engine.
+- Added separate substitution calculations for offensive skill players and defensive players.
+- Improved simulated sack attribution using defender Speed (50%), Acceleration (25%), and Strength (25%) while preserving the existing defensive-position probabilities.
+- Added a "Force Win" option to simulated games; *will usually result in blowouts*.
+- Increased the number of players on the sideline to 70; *Used to only be 8*.
+- CPU is WAY more likely to select "Kick" when they win the coin toss; *90% of the time they will choose kick*.
+- Added the two-minute time out.
 
+**Coaching Carousel Updates**
+- Expanded the coaching carousel with dynamic, school-driven hiring and firing decisions.
+- Replaced immediate coaching replacements with a multi-stage vacancy and hiring process; *still appears to happen instantaneously*.
+- Added cascading coaching changes, allowing schools to hire successful coaches from other programs.
+- Added a detailed coaching transactions report covering firings, retirements, hires, and contracts; *uses custom popup layouts for different coaching transaction categories*.
 
-**Graphical Updates**
-* 26.5GB (51K+) high res graphics
-* Deinterlacing built-in to improve visuals
-* Modern Scorebug
-* Custom Uniforms and Glove options with up to 20 uniform combinations per team!
-* Tattoos and other new gear options
-* Athlon Sports Magazine Pre-Season Ranking List & Graphics
-* Updated Sports Illustrated to The Athletic for weekly news
-* Updated Uniform Expansion to add Kennesaw State
-* Upscaled Player and Coach face graphics
-* Updated Sideline camera crew textures
-* Updates to every team-specific scorebug
-* Fixed network broadcast logos for Playoff Bowl games (e.g. Sugar Bowl, Rose Bowl, etc.)
-* Hard Rock Stadium for Miami & Orange Bowl
-* Upscaled/Updated In-Game Composure Textures
-* Updated UI Textures in most menus
-* Updated On3 Rivals logo and in-season recruiting board
-* **Uniform Updates:** Boston College, Bowling Green, Central Michigan, Cincinnati, Florida State,  Hawai'i, Louisiana, Michigan, Old Dominion, Wyoming
-* **Updated Fields:** FAU, Kansas, Ohio State, Oregon, Miami, Missouri State
+**Transfer Portal Updates**
+- Added expanded coach-following transfer logic for players whose coaches change schools.
+- Added position- and rating-based selection of potential coach-following transfers.
+- Added the possibility of additional player departures when incoming transfers displace players at their new schools.
 
-**General Updates**
-* Player Editor unlocked in Dynasty Mode
-* Allowance of #0 and duplicate jersey numbers
-* New player rating system! This rating system rates players from 40-99 with no gaps. In the original game, there were only 32 unique ratings between players, that were translated into a 40-99 system. In this new update, there is now a full 60 values that represent the 40-99 spectrum.
-* Updated Player Overall Rating System & UI Display! Player Overall rating system to improve normal distribution, recruiting diversity, and player growth built with AI
-* New Music Soundtrack
-* New Main Menu video! We cracked the video codec!
-* Removed Mascot Games from Main Menu
-* Added Save Warnings to prevent crashes
-* Fixed Loading Screens with Loading Screen Updates
-* Allows up to 6 Create-A-School teams
-* User Interface/Menu updates utilizing new-in house compression tools to full revamp the game menu layouts
-* Updated database capacity sizes to reduce memory issues and increase capabilities for future (including the 40-99 system)
-* Rename T, G, C to OT, OG, OC in menu screens
-* Finally fixed the Play by Play team name calling of "newly created" FBS teams in this mod (e.g. Liberty, UTSA, Charlotte, Coastal Carolina, Old Dominion, South Alabama, Georgia State, Kennesaw State, etc). They will no longer be called "Air Force" but by their team name!
-* **Updated School Names: **California, East Carolina, Florida Intl, Hawai'i, Louisiana, Miami (OH), Middle Tennessee, Missouri State, Sam Houston, UConn
+**Dynasty Player History & Redshirt Updates**
+- Added a five-season Year/Team history system for Dynasty players; *viewable when you press 'select' to view player stats*.
+- Finally fixed the issue of stats menus not populating when cycling through them.
+- Added a "Position" filter when viewing stats; *use the Right Joystick to switch between positions/position groups*.
+- Fixed the stats database games played counter so end of the years stats stop showing infinite numbers.
+
+**Postseason Selection, Menus & Presentation Updates**
+- Added a playoff bracket; *viewable by hitting R1/L1 on the Bowl Projections or Bowl Scores screen*.
+- Updated playoff selection rules to the current 2026 rules.
+- Added a setting in the NCAA Next settings to follow either the current 12 team or proposed 24 team playoff selection and seeding rules; *can be set at any time, but will only be checked when generating the schedules at the beginning of the dynasty or each year.*
+- Added the Panini Senior Bowl; *Takes place after the National Championship game*.
+- Senior Bowl players will wear their team's helmets.
+- Senior Bowl players can also receive Player of the Week honors after the completion of the Senior Bowl.
 
 # Media inquiries
 
