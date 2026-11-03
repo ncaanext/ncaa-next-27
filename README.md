@@ -4,7 +4,7 @@
 
 
 
-<img width="380" height="114" alt="NCAA NEXT" src="https://github.com/user-attachments/assets/59fec24a-ed6b-493c-a911-33619e63a9cb" />
+<img width="380" alt="NCAA NEXT" src="https://github.com/user-attachments/assets/59fec24a-ed6b-493c-a911-33619e63a9cb" />
 
 https://www.ncaanext.com
 
