@@ -112,16 +112,6 @@ Features include:
 - Senior Bowl players will wear their team's helmets.
 - Senior Bowl players can also receive Player of the Week honors after the completion of the Senior Bowl.
 
-# Media inquiries
-
-For media inquiries about this repository or project please start by contacting 
-
-* Email: | antdroid@ncaanext.com | jd637@ncaanext.com | jdhalfrack@ncaanext.com |
-
-You will be reminded to but be sure to use the contributor list in this Readme in your article or media.
-
-*We strive to acknowledge all those contributing assets and knowledge to this project.*
-
 
 # **Team Credits:**
 
