@@ -46,7 +46,7 @@ The NCAA NEXT Mod is a fully integrated modification of NCAA Football 06 for the
 
 Features include:
 
-`Next 26 Changelog:`
+`Next 27 Changelog:`
 
 **General League & Roster Updates**
 - Expanded the FBS league from 136 to 138 teams; *added Sacramento State and North Dakota State to the FBS lineup*.
@@ -116,12 +116,11 @@ Features include:
 
 For media inquiries about this repository or project please start by contacting 
 
-* Email: antdroid@ncaanext.com | h4wduk3n@ncaanext.com | jd637@ncaanext.com | jdhalfrack@ncaanext.com
+* Email: | antdroid@ncaanext.com | jd637@ncaanext.com | jdhalfrack@ncaanext.com |
 
 You will be reminded to but be sure to use the contributor list in this Readme in your article or media.
 
 *We strive to acknowledge all those contributing assets and knowledge to this project.*
-
 
 
 # **Team Credits:**
@@ -166,6 +165,11 @@ Other Community Credits
 - Quignon0079
 - OKST56
 - RS808
+- Seanie Mac
+- Doug
+- JakeInMilwaukee
+- Gold Sharpie
+- ZMO
 - OperationSports and Football Idiot Communities
 
 
